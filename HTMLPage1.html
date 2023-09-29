@@ -43,23 +43,26 @@
         IMG {
             position: absolute;
             right: 20px;
+            bottom: 20px;
         }
 
         table {
-                  border: 1px solid white;
-                  border-spacing: 3px;
-
+            border: 1px solid white;
+            border-spacing: 3px;
         }
 
 
-            td, tr {
-                   border: solid 1px white;
-
+        td, tr {
+            border: solid 1px white;
+            width: 100px;
+            height: 30px;
         }
 
-             .hidden-empty-cells {
-                    empty-cells: hide;
-
+        aside {
+            padding: 10px;
+            width: 150px;
+            height: 100px;
+            float: right;
         }
     </style>
 
@@ -70,42 +73,43 @@
     <font face="arial">
         <div id="content">
             <a>
-                <strong> <font size="6" face="arial">Hello, content! </font> </strong> <a>
-                    <br>
-                    <div id="box"></div>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                    <center><a href="https://www.csd.tsu.ru/" style="color:red"> www.csd.tsu.ru </a></center>
-                    <h2> <span style="color:red"> Here </span> is the list: </h2>
-                    <ul>
-                        <li> Value 1 </li>
-                        <font style="color:lightblue">
-                        <li> V a l u e 2 </li>
-    </font>
-    <li> Value 3 </li>
-    </ul>
-    <b> Here are some visual styles:</b>
-    <p><i> Italic </i><br></p>
-    <p><b>Bold</b></p>
-    <p><u>UnderLined</u></p>
-    <p><del>Line through</del></p>
-    <table class="table">
-        <tr>
-            <td rowspan="2" style="background-color:green;">1</td>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td colspan="2" style="background-color:red;">7</td>
-        </tr>
-    </table>
-    <img src="images.png" alt="Like symbol image" class="IMG">
-    </div>
-    <footer id="footer"><br> Hello, Footer! </footer>
+                <strong> <font size="6" face="arial">Hello, content! </font> </strong>
+            </a>
+            <br>
+            <div id="box"></div>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+            <center><a href="https://www.csd.tsu.ru/" style="color:red"> www.csd.tsu.ru </a></center>
+            <h2> <span style="color:red"> Here </span> is the list: </h2>
+            <ul>
+                <li> Value 1 </li>
+                <li style="color:lightblue"> V a l u e 2 </li>
+                <li> Value 3 </li>
+            </ul>
+            <b> Here are some visual styles:</b>
+            <p><i> Italic </i><br></p>
+            <p><b>Bold</b></p>
+            <p><u>UnderLined</u></p>
+            <p><del>Line through</del></p>
+            <aside>
+                <table class="table">
+                    <tr class="tr">
+                        <td rowspan="2" style="background-color:green;">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td colspan="2" style="background-color:red;">7</td>
+                    </tr>
+                </table>
+                <img src="images.png" alt="Like symbol image" class="IMG">
+            </aside>
+        </div>
+        <footer id="footer"><br> Hello, Footer! </footer>
     </font>
 </body>
 
