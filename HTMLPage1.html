@@ -18,32 +18,54 @@
         }
 
         #header {
-            text-align: center;
-            height: 55px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 6%;
+            width: 100%;
             background-color: green;
             color: white;
         }
-
+        #hdr {
+            position: absolute;
+            left: 47%;
+            top: -17%;
+            letter-spacing: 3px;
+        }
         #content {
-            height: 680px;
-            width: 500px;
+            position: absolute;
+            left: 33%;
+            top: 6%;
+            height: 88%;
+            width: 33%;
+            min-width: 400px;
+            min-height: 450px;
             background-color: blue;
             color: white;
             margin: auto;
             border: 20px double blue;
+            font-size: 0.95rem;
         }
 
         #footer {
-            text-align: center;
-            height: 55px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 6%;
+            width: 100%;
             background-color: green;
             color: white;
+        }
+        #ftr {
+            position: absolute;
+            left: 48%;
+            top: -10%;
         }
 
         IMG {
             position: absolute;
-            right: 20px;
-            bottom: 20px;
+            right: 10px;
+            bottom: -40px;
         }
 
         table {
@@ -58,18 +80,28 @@
             height: 30px;
         }
 
+        h2 {
+            word-spacing: 10px;
+        }
+
+        #value2 {
+            letter-spacing: 5px;
+        }
+
         aside {
             padding: 10px;
             width: 150px;
             height: 100px;
-            float: right;
+            position: absolute;
+            right: 10px;
+            bottom: 70px;
         }
     </style>
 
 </head>
 
 <body>
-    <header id="header"> <br> Hello, Header! </header>
+    <header id="header"> <p id="hdr"> Hello, Header! </p></header>
     <font face="arial">
         <div id="content">
             <a>
@@ -82,7 +114,7 @@
             <h2> <span style="color:red"> Here </span> is the list: </h2>
             <ul>
                 <li> Value 1 </li>
-                <li style="color:lightblue"> V a l u e 2 </li>
+                <li id="value2" style="color:lightblue"> Value 2 </li>
                 <li> Value 3 </li>
             </ul>
             <b> Here are some visual styles:</b>
@@ -93,23 +125,23 @@
             <aside>
                 <table class="table">
                     <tr class="tr">
-                        <td rowspan="2" style="background-color:green;">1</td>
-                        <td>2</td>
-                        <td>3</td>
+                        <td rowspan="2" style="background-color:green;"><center>1</center></td>
+                        <td><center>2</center></td>
+                        <td><center>3</center></td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>5</td>
+                        <td><center>4</center></td>
+                        <td><center>5</center></td>
                     </tr>
                     <tr>
-                        <td>6</td>
-                        <td colspan="2" style="background-color:red;">7</td>
+                        <td><center>6</center></td>
+                        <td colspan="2" style="background-color:red;"><center>7</center></td>
                     </tr>
                 </table>
                 <img src="images.png" alt="Like symbol image" class="IMG">
             </aside>
         </div>
-        <footer id="footer"><br> Hello, Footer! </footer>
+        <footer id="footer"> <p id="ftr"> Hello, Footer! </p></footer>
     </font>
 </body>
 
