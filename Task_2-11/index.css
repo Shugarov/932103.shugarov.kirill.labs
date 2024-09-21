@@ -1,0 +1,16 @@
+.main {
+    width:100%;
+    border:1px solid green;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-box {
+    background-color: aqua;
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+.image-box {
+    flex-shrink: 0;
+}

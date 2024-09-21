@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    background-color: gray;
+
+    padding: 15px;
+}
+
+.container {
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-column {
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+
+.left-column {
+
+    flex-shrink: 0;
+    height: 100%;
+    width: 190px;
+    padding: 5px;
+    background-color: greenyellow;
+}
+
+.footer {
+    
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.ref {
+    color: yellow;
+}

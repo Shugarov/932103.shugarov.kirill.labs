@@ -1,0 +1,14 @@
+.main{
+    margin: auto;
+    width: 500px;
+    background-color: blue;
+}
+
+.text-content {
+    color: white;
+    margin: 0;
+}
+
+.image-content {
+    float:right;
+}

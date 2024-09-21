@@ -1,0 +1,13 @@
+.content {
+    background-color: blue;
+    color: white;
+    width: 600px;
+    position: fixed;
+    padding:0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+

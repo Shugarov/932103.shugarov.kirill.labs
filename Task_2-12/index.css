@@ -1,0 +1,67 @@
+.main {
+    border: 1px solid green;
+    background-color: aqua;
+    display:flex;
+    flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .text-column {
+        max-width: 300px;
+    }
+
+    .navigation-bar {
+        max-width: 150px;
+    }
+}
+
+.navigation-bar {
+    flex-basis: 30%;
+    flex-shrink: 1;
+    height: 25%;
+    background-color: bisque;
+    flex-grow: 2;
+
+}
+
+.navigation-bar__navigation-item {
+    margin: 0;
+}
+
+.text-column {
+    flex-wrap: wrap;
+    flex-shrink: 4;
+    flex-grow: 1;
+    background-color: gray;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
